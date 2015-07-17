@@ -1,0 +1,26 @@
+strategy:
+
+1. create array and fill with letters.
+
+2. create a function that will shuffle the array from underscore.js.
+
+3. create a new board which will create child divs as specified in css and populate it 
+automatically in a for loop as per the tile id and values from the array and user clicking initiates the flip function.
+
+4. create a memoryFlipTile function.
+
+5. Inside the memoryFlipTile function check if the clicked tile is empty and the value less than 2.
+
+6.once the user click the first card, push the tileid and the value to an empty array.
+
+7.The user click on the second tile do the same thing.
+
+8. if the first push and the second push is the same the tilesflipped will be 2.
+
+9.empty the tileid and value of array then.
+
+10.if tiles flipped is equal to the length of the array, clear the board using a prompt.
+
+11.if the match is not the same then flip back.
+
+12. set the timer so that the tile flips back if the tileid and value of both the pick is not the same.
